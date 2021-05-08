@@ -10,10 +10,10 @@ using Newtonsoft.Json;
 
 namespace DndSimulator.Api.Functions
 {
-    public static class HelloWorldFunction
+    public class HelloWorldFunction
     {
         [FunctionName("HellowWorld")]
-        public static async Task<IActionResult> HelloWorld(
+        public IActionResult HelloWorld(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "hello-world")] HttpRequest req,
             ILogger log)
         {
