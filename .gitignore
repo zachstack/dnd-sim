@@ -342,3 +342,5 @@ healthchecksdb
 /DndSimulator.Tests/coverage.opencover.xml
 /DndSimulator/Properties/ServiceDependencies/dndsimulator - prod
 /DndSimulator/Properties/serviceDependencies.dndsimulator - prod.json
+/DndSimulator/Properties/ServiceDependencies/dndsimulator__dev - Zip Deploy
+/DndSimulator/Properties/serviceDependencies.dndsimulator__dev - Zip Deploy.json
