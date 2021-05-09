@@ -340,3 +340,5 @@ ASALocalRun/
 healthchecksdb
 /.sonarqube
 /DndSimulator.Tests/coverage.opencover.xml
+/DndSimulator/Properties/ServiceDependencies/dndsimulator - prod
+/DndSimulator/Properties/serviceDependencies.dndsimulator - prod.json
