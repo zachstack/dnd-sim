@@ -27,7 +27,7 @@ namespace DndSimulator.Tests.FunctionsTesting.TestCases
             var response  = (OkObjectResult)function.HelloWorld(request, tools.Log);
 
             //Assert
-            Assert.AreEqual("Hello World!", response.Value);
+            Assert.AreEqual("Hello World! We've got CD now!", response.Value);
         }
     }
 }

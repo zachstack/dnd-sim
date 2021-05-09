@@ -19,7 +19,7 @@ namespace DndSimulator.Api.Functions
         {
             log.LogInformation("Hello World!");
 
-            string message = "Hello World!";
+            string message = "Hello World! We've got CD now!";
 
             return new OkObjectResult(message);
         }
