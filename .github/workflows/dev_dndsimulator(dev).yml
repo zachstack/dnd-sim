@@ -32,6 +32,9 @@ jobs:
         dotnet build --configuration Release --output ./output
         popd
 
+    - name: Test with the dotnet CLI
+      run: dotnet test
+
     - name: 'Run Azure Functions Action'
       uses: Azure/functions-action@v1
       id: fa
