@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndSimulator.Api", "DndSimulator\DndSimulator.Api.csproj", "{E8078052-F7E9-4B9A-B761-1DE61C60B82F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DndSimulator.Tests", "DndSimulator.Tests\DndSimulator.Tests.csproj", "{062A74EA-752D-491B-9B25-44055388BC76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DndSimulator.Tests", "DndSimulator.Tests\DndSimulator.Tests.csproj", "{062A74EA-752D-491B-9B25-44055388BC76}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "DndSimulator.Site", "DndSimulator.Site\DndSimulator.Site.njsproj", "{4EB419E5-C521-44CF-91B2-4628429124AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{062A74EA-752D-491B-9B25-44055388BC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{062A74EA-752D-491B-9B25-44055388BC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{062A74EA-752D-491B-9B25-44055388BC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB419E5-C521-44CF-91B2-4628429124AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB419E5-C521-44CF-91B2-4628429124AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB419E5-C521-44CF-91B2-4628429124AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB419E5-C521-44CF-91B2-4628429124AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
