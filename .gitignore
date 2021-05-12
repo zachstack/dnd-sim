@@ -344,3 +344,4 @@ healthchecksdb
 /DndSimulator/Properties/serviceDependencies.dndsimulator - prod.json
 /DndSimulator/Properties/ServiceDependencies/dndsimulator__dev - Zip Deploy
 /DndSimulator/Properties/serviceDependencies.dndsimulator__dev - Zip Deploy.json
+/DndSimulator.Site/dist
